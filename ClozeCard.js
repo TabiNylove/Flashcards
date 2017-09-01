@@ -8,9 +8,13 @@
 // // The constructor should throw or log an error when the cloze deletion does not appear in the input text.
 // // Use prototypes to attach these methods, wherever possible.
 
+var ClozeCard = function(partial, cloze, fullText) {
+	this.cloze = cloze;
+	this.partial = partial;
+	this.fullText = fullText; 
+}
 
-
-
+module.exports = ClozeCard;
 // // The bulk of this assignment is implementing ClozeCard. If you build a robust ClozeCard implementation, feel free to try your hand at implementing a front-end, as well.
 
 // //EXAMPLES

@@ -1,0 +1,23 @@
+{
+  "name": "09-week-11-flashcard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "BasicCard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TabiNylove/week-11-flashcards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TabiNylove/week-11-flashcards/issues"
+  },
+  "homepage": "https://github.com/TabiNylove/week-11-flashcards#readme",
+  "dependencies": {
+    "inquirer": "^3.2.3"
+  }
+}
