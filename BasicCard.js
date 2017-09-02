@@ -16,10 +16,9 @@
 // // "George Washington"
 // console.log(firstPresident.back); 
 
-// Constructor for basic card
 var BasicCard = function(front, back) {
 	this.front = front;
 	this.back = back;
-}
+};
 
 module.exports = BasicCard;
